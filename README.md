@@ -108,3 +108,5 @@ describe('Convert util testing', ()=>{
 
 当然，真正的angular testing要复杂的多的多的多的多...官方有比较全面的[文档](https://angular.io/guide/testing)，但想要全部了解清楚还有很长的路要走。
 千里之行，基于跬步，希望自己能不断深入，持续更新，修正，未完待续...
+
+## [>> jasmine 语法入门 part I](src/assets/docs/part_1.md)
