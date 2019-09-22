@@ -1,4 +1,4 @@
-# jasmine 语法入门 part I
+# Jasmine 语法入门 part I
 
 在前一篇文章中，基本了解了整个测试文件的结构，也写了一个极简的测试用例，接下来具体的了解以下Jasmine的语法，来看之前写的那个简单的测试用例：
 ```
@@ -129,4 +129,7 @@ describe('multiple util testing', ()=>{
 ![](../sub_describe.png) 
 
 ## todo...
+
+## [<< 1. Angular Test Basic](../../../README.md)
+
 

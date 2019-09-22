@@ -1,4 +1,4 @@
-# Angular Test
+# Angular Test Basic
 
 最近，项目组的开发工作不算紧张，老大要求去写单元测试，让覆盖率的数字好看一些。虽然从个人角度，对这种功能开发结束再补单元测试的行为嗤之以鼻（偷偷的）， 但也是一个学习了解的机会，于是，开始研究Angular test...
 
@@ -109,4 +109,4 @@ describe('Convert util testing', ()=>{
 当然，真正的angular testing要复杂的多的多的多的多...官方有比较全面的[文档](https://angular.io/guide/testing)，但想要全部了解清楚还有很长的路要走。
 千里之行，基于跬步，希望自己能不断深入，持续更新，修正，未完待续...
 
-## [>> jasmine 语法入门 part I](src/assets/docs/part_1.md)
+## [>> 2. jasmine 语法入门 part I](src/assets/docs/part_1.md)
