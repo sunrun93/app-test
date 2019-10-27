@@ -1,6 +1,6 @@
 import { Convert } from './convert';
 
-describe('convert util testing', ()=>{
+xdescribe('convert util testing', ()=>{
     beforeAll(() => {
         console.log('before all')
     }),

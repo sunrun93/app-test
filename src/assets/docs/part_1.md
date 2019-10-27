@@ -128,7 +128,9 @@ describe('multiple util testing', ()=>{
 在测试结果报告中，describe的层级关系通过行缩进的方式展现出来，测试结果如下：
 ![](../sub_describe.png) 
 
-## todo...
+## xdescribe & xit
+在某些情况下，我们需要暂时禁用一些测试用例，可以通过x前缀进行控制，通过xdescribe可已经整个测试单元禁用，包括其内部的测试用例；而xit可以针对每个测试用例进行disable操作。禁用后可以在控制台输出中看到如下结果(最后一行，显示skipped 2)：
+![](../skip.png)
 
 ## [<< 1. Angular Test Basic](../../../README.md)
 
