@@ -9,6 +9,8 @@ import { MaskInputPipe } from './mask-input.pipe';
 import { InputMaskDirective } from './input-mask.directive';
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
 import { FormsModule } from '@angular/forms';
+import { SSNPipe } from './form-field-error/ssn-pipe';
+import { FormFieldErrorExample } from './form-field-error/form-field-error-example';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,14 +18,16 @@ import { FormsModule } from '@angular/forms';
     FormDemoComponent,
     MaskInputPipe,
     InputMaskDirective,
-    PhoneNumberComponent
+    PhoneNumberComponent,
+    FormFieldErrorExample,
+    SSNPipe
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     FormsModule
   ],
-  providers: [MaskInputPipe],
+  providers: [MaskInputPipe, SSNPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
