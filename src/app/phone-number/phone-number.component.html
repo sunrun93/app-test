@@ -1,8 +1,0 @@
-
-<form action="" [formGroup]='form'>
-  <input type="text" #phoneNumberText name="phoneNumber" id="phoneNumber" formControlName='phone' 
-  [value]='phoneNumberUI' (keyup)="newmethod($event)" />
-  <p>Your phone number is: {{ phoneNumberUI  }}</p>
-  <p>Your original Number is {{phoneNumber}}</p>
-  <button (click)='show()'>show/hidden</button>
-</form>
